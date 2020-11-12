@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>CSC4710 Demo</display-name>
+  
+   <servlet>
+    <description></description>
+    <display-name>queryOne</display-name>
+    <servlet-name>queryOne</servlet-name>
+    <servlet-class>user.web.servlet.queryOne</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>queryOne</servlet-name>
+    <url-pattern>/queryOne</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <description></description>
+    <display-name>queryTwo</display-name>
+    <servlet-name>queryTwo</servlet-name>
+    <servlet-class>user.web.servlet.queryTwo</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>queryTwo</servlet-name>
+    <url-pattern>/queryTwo</url-pattern>
+  </servlet-mapping>
+  
+     <servlet>
+    <description></description>
+    <display-name>queryThree</display-name>
+    <servlet-name>queryThree</servlet-name>
+    <servlet-class>user.web.servlet.queryThree</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>queryThree</servlet-name>
+    <url-pattern>/queryThree</url-pattern>
+  </servlet-mapping>
+  
+     <servlet>
+    <description></description>
+    <display-name>queryFour</display-name>
+    <servlet-name>queryFour</servlet-name>
+    <servlet-class>user.web.servlet.queryFour</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>queryFour</servlet-name>
+    <url-pattern>/queryFour</url-pattern>
+  </servlet-mapping>
+  
+     <servlet>
+    <description></description>
+    <display-name>queryFive</display-name>
+    <servlet-name>queryFive</servlet-name>
+    <servlet-class>user.web.servlet.queryFive</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>queryFive</servlet-name>
+    <url-pattern>/queryFive</url-pattern>
+  </servlet-mapping>
+  
+     <servlet>
+    <description></description>
+    <display-name>querySix</display-name>
+    <servlet-name>querySix</servlet-name>
+    <servlet-class>user.web.servlet.querySix</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>querySix</servlet-name>
+    <url-pattern>/querySix</url-pattern>
+  </servlet-mapping>
+  
+     <servlet>
+    <description></description>
+    <display-name>querySeven</display-name>
+    <servlet-name>querySeven</servlet-name>
+    <servlet-class>user.web.servlet.querySeven</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>querySeven</servlet-name>
+    <url-pattern>/querySeven</url-pattern>
+  </servlet-mapping>
+  
+     <servlet>
+    <description></description>
+    <display-name>queryEight</display-name>
+    <servlet-name>queryEight</servlet-name>
+    <servlet-class>user.web.servlet.queryEight</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>queryEight</servlet-name>
+    <url-pattern>/queryEight</url-pattern>
+  </servlet-mapping>
+  
+ <servlet>
+    <description></description>
+    <display-name>deleteHourly_employee</display-name>
+    <servlet-name>deleteHourly_employee</servlet-name>
+    <servlet-class>user.web.servlet.deleteHourly_employee</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>deleteHourly_employee</servlet-name>
+    <url-pattern>/deleteHourly_employee</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <description></description>
+    <display-name>findAllHourly_employee</display-name>
+    <servlet-name>findAllHourly_employee</servlet-name>
+    <servlet-class>user.web.servlet.findAllHourly_employee</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>findAllHourly_employee</servlet-name>
+    <url-pattern>/findAllHourly_employee</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <description></description>
+    <display-name>showEditFormhourly</display-name>
+    <servlet-name>showEditFormhourly</servlet-name>
+    <servlet-class>user.web.servlet.showEditFormhourly</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>showEditFormhourly</servlet-name>
+    <url-pattern>/showEditFormhourly</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <description></description>
+    <display-name>updateHourly_employee</display-name>
+    <servlet-name>updateHourly_employee</servlet-name>
+    <servlet-class>user.web.servlet.updateHourly_employee</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>updateHourly_employee</servlet-name>
+    <url-pattern>/updateHourly_employee</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>UserServletHourly_employee</display-name>
+    <servlet-name>UserServletHourly_employee</servlet-name>
+    <servlet-class>user.web.servlet.UserServletHourly_employee</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserServletHourly_employee</servlet-name>
+    <url-pattern>/UserServletHourly_employee</url-pattern>
+  </servlet-mapping>
+  
+  
+    <servlet>
+    <description></description>
+    <display-name>showEditFormEmployee</display-name>
+    <servlet-name>showEditFormEmployee</servlet-name>
+    <servlet-class>user.web.servlet.showEditFormEmployee</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>showEditFormEmployee</servlet-name>
+    <url-pattern>/showEditFormEmployee</url-pattern>
+  </servlet-mapping>
+  
+ 
+  <servlet>
+    <description></description>
+    <display-name>deleteEmployee</display-name>
+    <servlet-name>deleteEmployee</servlet-name>
+    <servlet-class>user.web.servlet.deleteEmployee</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>deleteEmployee</servlet-name>
+    <url-pattern>/deleteEmployee</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <description></description>
+    <display-name>updateEmployee</display-name>
+    <servlet-name>updateEmployee</servlet-name>
+    <servlet-class>user.web.servlet.updateEmployee</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>updateEmployee</servlet-name>
+    <url-pattern>/updateEmployee</url-pattern>
+  </servlet-mapping>
+
+    <servlet>
+    <description></description>
+    <display-name>findAllEmployee</display-name>
+    <servlet-name>findAllEmployee</servlet-name>
+    <servlet-class>user.web.servlet.findAllEmployee</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>findAllEmployee</servlet-name>
+    <url-pattern>/findAllEmployee</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <description></description>
+    <display-name>UserServletEmployee</display-name>
+    <servlet-name>UserServletEmployee</servlet-name>
+    <servlet-class>user.web.servlet.UserServletEmployee</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserServletEmployee</servlet-name>
+    <url-pattern>/UserServletEmployee</url-pattern>
+  </servlet-mapping>
+  
+  
+   <servlet>
+    <description></description>
+    <display-name>UserServletCompany</display-name>
+    <servlet-name>UserServletCompany</servlet-name>
+    <servlet-class>user.web.servlet.UserServletCompany</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserServletCompany</servlet-name>
+    <url-pattern>/UserServletCompany</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>deleteCompany</display-name>
+    <servlet-name>deleteCompany</servlet-name>
+    <servlet-class>user.web.servlet.deleteCompany</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>deleteCompany</servlet-name>
+    <url-pattern>/deleteCompany</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <description></description>
+    <display-name>findAllCompany</display-name>
+    <servlet-name>findAllCompany</servlet-name>
+    <servlet-class>user.web.servlet.findAllCompany</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>findAllCompany</servlet-name>
+    <url-pattern>/findAllCompany</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <description></description>
+    <display-name>showEditForm</display-name>
+    <servlet-name>showEditForm</servlet-name>
+    <servlet-class>user.web.servlet.showEditForm</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>showEditForm</servlet-name>
+    <url-pattern>/showEditForm</url-pattern>
+  </servlet-mapping>
+
+  
+  <servlet>
+    <description></description>
+    <display-name>updateCompany</display-name>
+    <servlet-name>updateCompany</servlet-name>
+    <servlet-class>user.web.servlet.updateCompany</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>updateCompany</servlet-name>
+    <url-pattern>/updateCompany</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>InitializeServlet</display-name>
+    <servlet-name>InitializeServlet</servlet-name>
+    <servlet-class>user.web.servlet.InitializeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>InitializeServlet</servlet-name>
+    <url-pattern>/InitializeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  
+  
+    <description></description>
+    <display-name>UserServletRegister</display-name>
+    <servlet-name>UserServletRegister</servlet-name>
+    <servlet-class>user.web.servlet.UserServletRegister</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserServletRegister</servlet-name>
+    <url-pattern>/UserServletRegister</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>UserServletLogin</display-name>
+    <servlet-name>UserServletLogin</servlet-name>
+    <servlet-class>user.web.servlet.UserServletLogin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserServletLogin</servlet-name>
+    <url-pattern>/UserServletLogin</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>findAll</display-name>
+    <servlet-name>findAll</servlet-name>
+    <servlet-class>user.web.servlet.findAll</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>findAll</servlet-name>
+    <url-pattern>/findAll</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>login.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
