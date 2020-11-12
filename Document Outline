@@ -1,0 +1,56 @@
+ CS 480
+Project:  Payroll Database Management Company
+
+Description: (7/13/2020)
+		Consider a company designed to handle Payroll of other companies:  Every time a company joins to our system a unique company ID is created with 
+    the details of the company (name, address, contact number, employee size). All the companies have numerous employees and a database for all the 
+    employees is also created with a unique employee ID number (employee name, hiring date, gender, date of birth, and compensation type.) Also, for 
+    every employee, there is separate entity related to Tax, Pay, and Deductibles. Tax has following attributes: - employee Id, state tax, federal tax, 
+    social security tax, and Medicare. Deductibles has following attributes: -employee ID, dental insurance, vision insurance, medical insurance, 401K, 
+    and Life insurance. Pay has following attributes: - employee ID, compensation type, rate, Salary, hours worked, salary days, pay starting date, and 
+    pay ending date. To connect all this data, we have a tb_user entity, which contains login data for each and every employee. Three strong entity in 
+    our database are tb_user, Company and Employee.   
+
+
+
+Project Part 2 – CRUD (Create, read, update, and delete)
+Deadline: July 18, 2020
+
+List of entities:
+1. tb_user
+2. company
+3. employee
+4. salary_employee
+5. hourly_employee
+6. salary_tax
+7. hourly_tax
+8. hourly_deductibles
+9. salary_deductibles
+
+Based on the Demo (Part 1), implement the following functionality using Java and SQL with necessary GUI interfaces. 
+ 
+
+1. Insert/delete/update/read a "company" (all attributes except the company_id).
+	The compan_id should be is the unique key, and all the other atributes are reated data to the company.	
+2. Insert/delete/update/read a "employee" (all attributes except the employee_id).
+	This is the list of all the employee in the system, and they are divided according to their pay type.	
+3. Insert/delete/update/read a "hourly_employee" (all attributes except the hourly_ssn)
+	This is the Litt of all the employes who has theri pay type as hourly. 
+
+
+
+Project Part 3 – Queries       
+Deadline: August 1, 2020
+
+Based on the Demo, implement the following functionality using Java and SQL with necessary GUI interfaces.
+Trivial Queries:
+1. Getting the average employee size for a particular company from all the different locations.
+2. Concatenating and giving the name and the employee id of all the employee from company id.
+3. Getting the total tax of all the salaried employees from the salary tax, showing it with the most tax paying employee.
+		
+Non-trivial Queries:
+1. Showing the net income(income after deductibles and tax) of all the salaried employee.
+2. Getting the count of all the employees working for the specific company regardless of the company's different locations.
+3. Getting name and id of all the hourly employees whose pay rate is above $25.00.
+4. Showing data of all the company who has more then 900 employees.
+5. Getting id, pay rate and state tax of hourly employees whose pay rate is more than $20.00 and paying state tax more then the average employees 
